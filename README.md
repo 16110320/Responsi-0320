@@ -1,29 +1,27 @@
-# Catalogue Movie
-This is the first project of MADE course in dicoding.com academy. The aim of this project is to create an android movie app that able to search an movie and show the detail of movie by using themoviedb.org API.
+# JsexpertChatBot
 
-## Screenshot
-![2018-08-16_09-12-53](https://user-images.githubusercontent.com/26306746/44183590-c8436a00-a135-11e8-97db-66e1a8dc8b51.png)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
 
-## Requirements or features in application
-1. Pages to search for movies.
-2. A detail page to display the selected details on the movie list page.
-3. Display posters from movies.
+## Development server
 
-## API
-[TheMovideDB](https://www.themoviedb.org/) - A movie lists API
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-1. to get movie data - api.themoviedb.org/3/search/movie?api_key=(Api Key)&language=en-US&query=(Movie Name)
-2. to get movie poster - http://<i></i>image.tmdb.org/t/p/ 
+## Code scaffolding
 
-   There are several sizes that you can use w92, w154, w185, w342, w500, w780, and original.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Library
-1. [Picasso](http://square.github.io/picasso/) - A powerful image downloading and caching library for Android
+## Build
 
-2. [Loopj](http://loopj.com/android-async-http/) - A Callback-Based Http Client Library for Android
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-3. [JustifiedTextView](https://github.com/amilcar-sr/JustifiedTextView) - JustifiedTextView is an Android View that justifies the Text!
+## Running unit tests
 
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-# Please be Noted
-For those who still do the project in MADE course please use this as reference only. Hope this will help you to develop more project.
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
